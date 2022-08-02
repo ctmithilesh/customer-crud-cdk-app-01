@@ -18,7 +18,7 @@ export class CustomerCrudCdkApp01Stack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    this.appName = this.node.tryGetContext('appName');
+    this.appName = 'CTServerlessLab'
 
     this.createCustomerTable();
 
